@@ -1,0 +1,121 @@
+.header-section{
+    // background-color:rgb(218, 102, 52);
+    // background-color:#ff9900;
+    // background-color:#353434;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 2rem;
+    line-height: 0;
+    align-items: center;
+    color:#ff9900;
+    // position: fixed;
+    
+}
+
+.logo-section{
+    // flex:1;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo-section h1 {
+    font-size:1.5rem;
+    font-weight: 800;
+    margin-left:10px;
+    letter-spacing: -1px;
+}
+
+.logo-wrapper img{
+    width:80px;
+    height: 80px;
+    padding: 0;
+    margin:0;
+}
+
+
+.header-content a{
+    &:hover {
+        color: rgb(255, 252, 176);
+        // text-decoration: underline;
+      }
+}
+
+.nav-list{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     background-color:rgb(26, 105, 26);
+     list-style-type: none;
+     align-items: flex-start;
+     font-size: 1rem;
+     font-weight: 1000;
+     color:#990033;
+    //  flex:3;
+}
+
+.nav-list li {
+    margin: 0rem 0.5rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activeList {
+    color: #ff9900;
+    text-decoration: underline;
+ }
+
+ .nav-list li:first-child {
+    margin-left: 0;
+  }
+  .nav-list li:last-child {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  @media only screen and (max-width: 599px) {
+    .header-content {
+        flex-direction: column;
+      } 
+
+      .nav-list {
+        align-items: center;
+        margin-top: 2rem;
+      }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .header-content {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+
+
+@media only screen and (min-width: 961px) {
+    .header-content {
+      width: 960px;
+      margin: 0 auto;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .header-content {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+
+
+
+
+
