@@ -53,15 +53,15 @@
      flex-wrap: wrap;
      background-color:rgb(26, 105, 26);
      list-style-type: none;
-     align-items: flex-start;
      font-size: 1rem;
-     font-weight: 1000;
+     font-weight: 700;
      color:#990033;
+     font-family: 'Open Sans', sans-serif;
     //  flex:3;
 }
 
 .nav-list li {
-    margin: 0rem 0.5rem;
+    margin: 0rem 0.7rem;
     text-transform: uppercase;
     justify-content: space-between;
     align-items: center;

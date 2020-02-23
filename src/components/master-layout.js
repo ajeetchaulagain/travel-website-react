@@ -1,14 +1,15 @@
 import React from "react"
 import Header from "./header.js"
-import Welcome from "./welcome.js"
+import Footer from "./footer.js"
 
-const Layout = () => {
+const MasterLayout = props => {
   return (
     <div className="main">
       <Header />
-      <Welcome />
+      {props.children}
+      <Footer />
     </div>
   )
 }
 
-export default Layout
+export default MasterLayout

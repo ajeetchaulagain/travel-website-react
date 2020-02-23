@@ -13,9 +13,7 @@ const Header = () => {
           <div className={headerStyles.logoWrapper}>
             <img src={img} />
           </div>
-         <h1>New Arrival Travel and 
-         Tours</h1>
-
+          <h1>New Arrival Travel and Tours</h1>
         </div>
 
         <ul className={headerStyles.navList}>

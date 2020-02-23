@@ -1,8 +1,17 @@
 import React from "react"
-import Layout from "../components/layout.js"
+import MasterLayout from "../components/master-layout"
+import IndexHero from "../components/index-hero"
+import Content from "../components/content.js"
 
 const IndexPage = () => {
-  return <Layout />
+  return (
+    <MasterLayout>
+      <IndexHero />
+      <Content>
+        <h1>This is conent</h1>
+      </Content>
+    </MasterLayout>
+  )
 }
 
 export default IndexPage

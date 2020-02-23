@@ -3,17 +3,17 @@ import MasterLayout from "../components/master-layout"
 import Content from "../components/content"
 import CommonHero from "../components/common-hero"
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <MasterLayout>
       <CommonHero>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
       </CommonHero>
       <Content>
-        <h1>This is About Section</h1>
+        <h1>This is Contact Page</h1>
       </Content>
     </MasterLayout>
   )
 }
 
-export default AboutPage
+export default ContactPage
