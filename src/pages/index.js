@@ -8,11 +8,8 @@ const IndexPage = () => {
     <MasterLayout>
       <IndexHero />
       <Content>
-        <h1>This is a dummy content section. enjoy reading it This is a dummy content section. enjoy reading it This is a dummy content section. enjoy reading it This is a dummy content section. enjoy reading it
-        This is a dummy content section. enjoy reading it
-        This is a dummy content section. enjoy reading it
-        This is a dummy content section. enjoy reading it
-        This is a dummy content section. enjoy reading it</h1>
+        <h1>Some of our Popular Packages</h1>
+        <p>Here are some of our popular packages</p>
       </Content>
     </MasterLayout>
   )
