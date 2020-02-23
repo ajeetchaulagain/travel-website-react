@@ -7,11 +7,11 @@ import {
     FaGithub,
     FaInstagram,
     FaEnvelope,
+    FaPhoneSquare,
+    FaSearchLocation,
   } from "react-icons/fa"
 
-  import {
-    MdDialerSip,
-  } from "react-icons/md"
+
 
 const MetaHeader = () =>{
 
@@ -19,8 +19,9 @@ const MetaHeader = () =>{
         <div className= {metaHeaderStyles.metaHeader}>
         <div className={metaHeaderStyles.metaHeaderContent}>
             
-            <p>Email: info@newarrivaltravel.com.np &nbsp; | &nbsp; &nbsp; </p>
-            <p>Contact:0450775639 &nbsp; &nbsp; | </p>
+            <FaEnvelope/><p> &nbsp; info@newarrivaltravel.com.np &nbsp; | &nbsp; &nbsp; </p>
+            <FaPhoneSquare/><p>&nbsp; 0450775639 &nbsp; &nbsp; | &nbsp; &nbsp; </p>
+            <FaSearchLocation/><p>&nbsp; Thamel, Kathmandu</p>
             <ol>
                 <li><FaFacebookF/></li>
                 <li><FaTwitter/></li>
