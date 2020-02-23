@@ -1,13 +1,10 @@
 import React from "react"
-import {Col, Row} from "react-bootstrap"
+import {} from "react-bootstrap"
 
-const Header = () =>{
-    return (
-        <Row>
-            <Col>1 of 3</Col>
-            <Col>2 of 1</Col>
-        </Row>
-    )
+const Header = () => {
+  return (
+    <h1>hello Welcome to New Arrival Travel and Tours Private Limited</h1>
+  )
 }
 
 export default Header

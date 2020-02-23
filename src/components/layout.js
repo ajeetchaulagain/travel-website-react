@@ -1,14 +1,13 @@
 import React from "react"
 import Header from "./header.js"
-import {Container} from "react-bootstrap"
-
+import { Container } from "react-bootstrap"
 
 const Layout = () => {
   return (
-    <Container>
-       <Header/>
-    </Container>
-)
+ 
+      <Header />
+  
+  )
 }
 
 export default Layout
