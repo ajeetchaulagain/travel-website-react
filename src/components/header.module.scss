@@ -1,19 +1,20 @@
 .header-section{
-    // background-color:rgb(218, 102, 52);
-    // background-color:#ff9900;
-    // background-color:#353434;
-    background-color: rgb(255, 255, 255);
+  
+    background-color: #ffffff;
+
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:1rem 2rem;
+    padding:.5rem 2rem;
     line-height: 0;
     align-items: center;
     color:#ff9900;
     // position: fixed;
+    background:transparent;
+
     
 }
 
@@ -26,16 +27,22 @@
 }
 
 .logo-section h1 {
+    // position: absolute;
+    left:19%;
     font-size:1.5rem;
     font-weight: 800;
     margin-left:10px;
     letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo-wrapper img{
+
     width:80px;
     height: 80px;
     padding: 0;
+    // position: absolute;
+    top:3px;
     margin:0;
 }
 
@@ -54,7 +61,7 @@
      background-color:rgb(26, 105, 26);
      list-style-type: none;
      font-size: 1rem;
-     font-weight: 700;
+     font-weight: 500;
      color:#990033;
      font-family: 'Open Sans', sans-serif;
     //  flex:3;

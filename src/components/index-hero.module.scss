@@ -1,5 +1,5 @@
 .welcome-section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/singapore.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.359), rgba(0, 0, 0, 0.4)), url("../images/singapore.jpg");
     // background-image: url('../images/uluwatu-temple-2639458.jpg');
     background-size:100% 100%;
     // opacity:.8;
@@ -17,7 +17,8 @@
     font-family: 'Raleway', sans-serif;
     font-size:3.5rem;
     font-weight: 800;
-    text-shadow: 1px 1px 5px #3b3a3b;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px #990033;
 }
 
 .welcome-button{
