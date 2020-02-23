@@ -8,7 +8,6 @@ const IndexHero = () => {
     <div className={welcomeStyles.welcomeSection}>
       <div className={welcomeStyles.welcomeContent}>
         <h1>
-          {" "}
           Welcome to New Arrival <br />
           Travel and Tours
         </h1>
