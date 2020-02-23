@@ -11,7 +11,7 @@ const IndexHero = () => {
           Welcome to New Arrival <br />
           Travel and Tours
         </h1>
-        <p>Your ultimate destination for your travel</p>
+        <p>Make a memories with us</p>
         <Link to="/package" className={welcomeStyles.welcomeButton}>
           Featured Package
         </Link>

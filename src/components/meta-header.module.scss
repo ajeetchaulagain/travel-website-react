@@ -1,14 +1,29 @@
 .meta-header{
     background-color:#990033;
     color:white;
-    padding:.3rem;
+    padding:.5rem;
     font-size: .8rem;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 0;
+
 }
+.meta-header-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
 
 .meta-header ol{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+}
+.meta-header ol li{
+    margin-left:1rem;
+    font-size: .9rem;
 }
 
 
@@ -20,6 +35,13 @@
       } 
   }
 
+  @media only screen and (min-width: 961px) {
+    .meta-header-content {
+      width: 960px;
+      margin: 0 auto;
+    }
+  }
+
   @media only screen and (min-width: 1200px) {
     .meta-header-content {
       width: 1200px;
@@ -29,11 +51,6 @@
 
 
 
-@media only screen and (min-width: 961px) {
-    .meta-header-content {
-      width: 960px;
-      margin: 0 auto;
-    }
-  }
+
 
  
