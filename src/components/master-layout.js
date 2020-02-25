@@ -6,7 +6,7 @@ import MetaHeader from "./meta-header"
 const MasterLayout = props => {
   return (
     <div className="main">
-      <MetaHeader/>
+      <MetaHeader />
       <Header />
       {props.children}
       <Footer />

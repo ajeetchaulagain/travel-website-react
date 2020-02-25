@@ -1,0 +1,94 @@
+.footer-section{
+    background-color:#ffffffe7;
+    color:black;
+}
+
+.footer-content{
+    padding:1.5rem; 
+}
+
+
+.partner-section{
+    // background-color: green;
+    text-align: center;
+    padding:2rem;
+}
+
+.partner-section h3{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size:1.3rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.payment-section{
+    text-align: center;
+    padding:2rem;
+}
+
+.footer-section2{
+    background-color:#990033;
+    // height:6rem;
+    color:white;
+    text-align: center;
+
+    font-size:1rem;
+    font-weight: 700;
+    // text-transform: uppercase;
+    // font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.footer-section2 .menu-section{
+    // background-color: green;
+    padding:2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // padding:2rem;
+}
+
+.nav-list li {
+    margin: 0rem 0.2rem;
+}
+
+.footer-section2 .copyright-section{
+    // background-color:green;
+    font-weight: 400;
+    font-size:.8rem;
+    padding:2rem;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+    .footer-content {
+        // flex-direction: column;
+      } 
+  }
+
+
+
+@media only screen and (min-width: 961px) {
+    .footer-content {
+      width: 960px;
+      margin: 0 auto;
+      padding: .5rem 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .footer-content {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }

@@ -28,10 +28,10 @@ const Header = () => {
             </Link>
           </li>
           <li>
-          <Link to="/contact" activeClassName={headerStyles.activeList}>
-            Adventures
-          </Link>
-        </li>
+            <Link to="/contact" activeClassName={headerStyles.activeList}>
+              Adventures
+            </Link>
+          </li>
           <li>
             <Link to="/services" activeClassName={headerStyles.activeList}>
               Services
@@ -47,7 +47,6 @@ const Header = () => {
               Contact
             </Link>
           </li>
-       
         </ul>
       </div>
     </div>

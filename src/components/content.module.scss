@@ -1,13 +1,19 @@
 .content-section {
-    // background-color: rgb(206, 40, 40);
-    width: 100%;
-    position: relative;
-    // padding:1.5rem;
+    background-color:#fcf1f5;
   }
 
   .content {
-     padding:2rem; 
+     padding:1.5rem; 
      min-height: 50rem;
+     text-align: center;
+    //  background-color:black;
+    
+  }
+
+  .content h1{
+    font-size:2rem;
+    font-family: 'Anton', sans-serif;
+    color:#990033;
   }
 
   @media only screen and (max-width: 599px) {
