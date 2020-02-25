@@ -1,39 +1,38 @@
-.welcome-section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.359), rgba(0, 0, 0, 0.4)), url("../images/singapore.jpg");
-    // background-image: url('../images/uluwatu-temple-2639458.jpg');
-    background-size:100% 100%;
-    // opacity:.8;
-    color:#fff;
-
+.welcome-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.359), rgba(0, 0, 0, 0.4)),
+    url("../images/singapore.jpg");
+  // background-image: url('../images/uluwatu-temple-2639458.jpg');
+  background-size: 100% 100%;
+  // opacity:.8;
+  color: #fff;
 }
 
-.welcome-content{
-    padding: 9rem 2rem 10rem;
-    line-height: 1.6;
-    text-align: center;
-    // font-size:1.5rem;
+.welcome-content {
+  padding: 9rem 2rem 10rem;
+  line-height: 1.6;
+  text-align: center;
+  // font-size:1.5rem;
 }
 
-.welcome-content h1{
-    font-family: 'Raleway', sans-serif;
-    font-size:3.5rem;
-    line-height: 1.4;
-    margin-bottom: 2rem;
-    font-weight: 1000;
-    letter-spacing: -1px;
-    text-shadow: 1px 1px 2px #000000;
-
+.welcome-content h1 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  font-weight: 1000;
+  // letter-spacing: -1px;
+  text-shadow: 1px 1px 2px #000000;
 }
 
-.welcome-content p{
-  font-size:1.6rem;
+.welcome-content p {
+  font-size: 1.6rem;
   font-style: italic;
   font-family: Lora;
-  text-shadow: 1px 1px 2px #85250f;
-  color:rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #990033;
+  color: rgb(255, 255, 255);
 }
 
-.welcome-button{
+.welcome-button {
   border: 1px solid rgb(231, 222, 236);
   padding: 0.8rem 2rem;
   display: inline-block;
@@ -44,9 +43,9 @@
   font-size: 1rem;
   border-radius: 2px;
   transition: all 0.3s ease;
-  margin-top:4rem;
-  margin-left:.5rem;
-  background-color: #990033af;
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+  background-color: #990033;
 }
 
 .welcome-button:hover {
@@ -54,32 +53,28 @@
   color: #990033;
 }
 
-
-
 // media queries
 
-
 @media only screen and (max-width: 599px) {
-    .welcome-content {
-        padding-top: 4rem;
-        padding:2rem 1rem 0rem;
-      }
+  .welcome-content {
+    padding-top: 4rem;
+    padding: 2rem 1rem 0rem;
+  }
 }
 
 @media only screen and (min-width: 961px) {
-    // .welcome-section{
-    //     // padding-bottom: 9rem;
-    // }
-    .welcome-content {
-      width: 960px;
-      margin: 0 auto;
-    }
+  // .welcome-section{
+  //     // padding-bottom: 9rem;
+  // }
+  .welcome-content {
+    width: 960px;
+    margin: 0 auto;
   }
-  
-  @media only screen and (min-width: 1200px) {
-    .welcome-content {
-      width: 1200px;
-      margin: 0 auto;
-    }
-  }
+}
 
+@media only screen and (min-width: 1200px) {
+  .welcome-content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
