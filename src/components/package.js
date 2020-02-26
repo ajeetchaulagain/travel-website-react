@@ -11,7 +11,7 @@ const Package = () => {
         <img src={packageImage} />
         <div className={packageStyles.frontMatter}>
           <h2>Srilanka</h2>
-          <p>4 Night/ 5 Days</p>
+          <p className={packageStyles.boxItem}>4 Night/ 5 Days</p>
           <p>Nrs. 8000 . US$ 200</p>
         </div>
       </Link>

@@ -3,11 +3,12 @@
   width: 32%;
   border: 1px solid rgb(216, 216, 216);
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.6;
   margin-bottom: 1rem;
   border-radius: 5px;
-
-  // background-color:#990033;
+  box-shadow:1px 1px 4px rgb(213, 212, 212);
+  background-color:#ffffff;
   color: #3e3c3d;
   transition: background-color,transform 0.3s ease-in-out;
 }
@@ -15,6 +16,8 @@
 .package-wrapper:hover {
   background-color: #3e3c3d;
   color: white;
+  // color:rgb(223, 107, 107);
+  // text-decoration: underline;
   transform: scale(1.03);
 }
 
@@ -29,11 +32,21 @@
 
 .front-matter {
   padding: 1rem 0.5rem;
+  // visibility: hidden;
 }
+
+.front-matter p{
+  // color: #990033;
+  // text-transform: uppercase;
+}
+
+
+
 
 .package-wrapper h2 {
   font-family: "Paytone One", sans-serif;
   font-size: 1.5rem;
+  // text-transform: uppercase;
 }
 
 // @media only screen and (max-width:480px){
